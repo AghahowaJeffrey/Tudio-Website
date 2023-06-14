@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+@use '../abstracts' as a;
+
+// header styles //
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    padding: a.div(68.6) 0 ;
+}
+
+
+.header-logo {
+    width: a.div(183.59);
+    height: a.div(59.97);
+}
+
+.

@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles for the main background.
+// -----------------------------------------------------------------------------
+
+@use '../abstracts' as a;
+
+// background style //
+body {
+    background-color: a.$clr-primary-400;
+}
+.body-container {
+    background: linear-gradient(0deg, a.$clr-primary-400 53%, a.$clr-neutral-100 53% );
+}
+
+// color style 
+.clr-bg-primary {
+    background-color: a.$clr-primary-400;
+}
+.clr-bg-secondary {
+    background-color: a.$clr-secondary-400;
+}
+

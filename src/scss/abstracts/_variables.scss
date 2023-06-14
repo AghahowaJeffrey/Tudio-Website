@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$font-family-primary: Verdana, Geneva, Tahoma, sans-serif;
+
+
+// colors
+$clr-neutral-100: hsl(0, 0%, 100%);
+
+$clr-primary-400: hsl(230, 81%, 55%);
+$clr-secondary-400: hsl(49, 97%, 59%);
+
+$ff-heading: $font-family-primary;
+$ff-body: $font-family-primary;
+
+$font-weight: 400;
+
+// text sizes
+$fs-31: 31.88;
+$fs-33: 33.6;
+$fs-35: 35.5;
+$fs-38: 38.75;
+$fs-45: 45.24;
+$fs-55: 55.06;
+$fs-64: 64.88;
+$fs-107: 107.51;
+
+// layout measurements 
+$max-width: 1492.4;
+$padding: 118;

@@ -1,0 +1,138 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+@use '../abstracts' as a;
+
+//main section style //
+.content__box {
+    border: 1px solid a.$clr-primary-400;
+    width: a.div(682);
+    height: a.div(85.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// .hero p {
+//     font-size: u.size(u.$text-size-100);
+//     color: u.$color-background-200;
+// }
+
+// section h1 {
+//     font-size:  u.size(u.$text-size-400);
+//     line-height: u.size(125.03);
+// }
+
+// // overlap styles //
+
+// .overlap {
+//     width: 100%;
+//     height: u.size(374);
+//     background-color: u.$color-background-300;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin-top: u.size(126);
+// }
+
+// .overlap p {
+//     color: u.$color-text-200;
+//     font-size: u.size(u.$text-size-300);
+//     width: u.size(547);
+//     line-height: u.size(75.45);
+//     margin-left: u.size(70.2);
+// }
+
+// .overlap button {
+//     color: u.$color-text-100;
+//     background-color: u.$color-background-200;
+//     padding: u.size(22.8) u.size(57.6);
+//     font-size: u.size(u.$text-size-170);
+//     margin-right: u.size(77.8);
+//     border: 0;
+    
+// }
+
+// // Footer styles //
+
+// footer {
+//     margin-top: u.size(161);
+//     display: flex;
+//     justify-content: space-between;
+//     padding-bottom: u.size(127.68);
+// }
+
+// .footer-section {
+// width: u.size(608.6);
+// }
+
+// .email-input {
+//     width: u.size(608.6);
+//     height: u.size(81.15);
+//     position: relative;
+//     margin-bottom: u.size(138.99);
+// }
+
+// .email-input img {
+//     width: u.size(89.26);
+//     position: absolute;
+//     bottom: u.size(45);
+//     left: u.size(500);
+// }
+// .email-input input {
+//     background-color: transparent;
+//     border: 1px solid u.$color-background-100;
+//     width: 100%;
+//     font-size: u.size(u.$text-size-150);
+//     font-weight: 100;
+//     padding-left: u.size(36.26);
+// }
+
+// .email-input input::placeholder {
+//     color: hsl(0, 0%, 100%, 0.6);
+// }
+
+// .footer-section h1 {
+//     font-size: u.size(u.$text-size-160);
+//     margin-bottom: u.size(103.87);
+//     color: u.$color-text-100;
+// }
+// .footer-section-1 .footer-logo {
+//     width: u.size(720);
+//     height: u.size(168.71);
+// }
+
+// .footer-section-2 p,
+// .footer-section-2 a {
+//     color: u.$color-text-100;
+// }
+
+// .footer-section-2 p {
+//     font-size: u.size(u.$text-size-130);
+//     margin-bottom: u.size(28.2);
+// }
+
+// .footer-section-2 h1 {
+//     font-size: u.size(u.$text-size-200);
+//     padding: u.size(40.9) 0;
+//     color: u.$color-text-100;
+//     border-bottom: 2px solid hsla(0, 0%, 100%, 1);
+// }
+
+// .contact-info {
+//     margin-top: u.size(69.6);
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .copyright {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .copyright p {
+//     margin-bottom: 0;
+//     padding-top: 40px;
+// }
+

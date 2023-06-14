@@ -1,0 +1,45 @@
+/**
+ * Basic typography classes for copy text
+ */
+
+@use '../abstracts/' as a;
+
+.clr-neutral-100 {
+    color: a.$clr-neutral-100 ;
+}
+.clr-primary-400 {
+    color: a.$clr-primary-400;
+}
+
+.ff-heading {
+    font-family: a.$ff-heading;
+}
+.ff-body {
+    font-family: a.$ff-body;
+}
+
+.fs-31 {
+    font-size: a.div(a.$fs-31);
+}
+.fs-33 {
+    font-size: a.div(a.$fs-33);
+}
+.fs-35 {
+    font-size: a.div(a.$fs-35);
+}
+.fs-38 {
+    font-size: a.div(a.$fs-38);
+}
+.fs-45 {
+    font-size: a.div(a.$fs-45);
+}
+.fs-55 {
+    font-size: a.div(a.$fs-55);
+}
+.fs-64 {
+    font-size: a.div(a.$fs-64);
+}
+.fs-107 {
+    font-size: a.div(a.$fs-107);
+    line-height: 1em;
+}
