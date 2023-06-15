@@ -8,13 +8,16 @@
 .header__flex {
     display: flex;
     justify-content: space-between;
-    padding: a.div(68.6) 0 ;
+    padding: a.div(68.6) 0;
 }
-
 
 .header-logo {
     width: a.div(183.59);
     height: a.div(59.97);
 }
 
-.
+.header-btn {
+    width: a.div(60);
+    height: a.div(60);
+}
+

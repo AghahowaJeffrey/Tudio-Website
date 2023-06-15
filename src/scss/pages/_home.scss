@@ -7,12 +7,15 @@
 //main section style //
 .content__box {
     border: 1px solid a.$clr-primary-400;
-    width: a.div(682);
+    width: a.div(800);
     height: a.div(85.25);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: a.div(20.88);
 }
+
+
 
 // .hero p {
 //     font-size: u.size(u.$text-size-100);

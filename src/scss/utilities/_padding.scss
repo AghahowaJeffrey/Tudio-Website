@@ -1,4 +1,9 @@
 // -----------------------------------------------------------------------------
-// This file contains all application-wide Sass mixins.
+// This file contains all styles for the container.
 // -----------------------------------------------------------------------------
 
+@use '../abstracts' as a;
+
+.padding-block-100 {
+    padding-block: a.$s-300;
+}

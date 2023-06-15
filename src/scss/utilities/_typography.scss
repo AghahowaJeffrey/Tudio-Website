@@ -20,6 +20,7 @@
 
 .fs-31 {
     font-size: a.div(a.$fs-31);
+    line-height: 1em;
 }
 .fs-33 {
     font-size: a.div(a.$fs-33);
@@ -42,4 +43,8 @@
 .fs-107 {
     font-size: a.div(a.$fs-107);
     line-height: 1em;
+}
+
+.fs-body {
+    font-size: a.div(a.$fs-31);
 }
