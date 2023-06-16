@@ -2,17 +2,16 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-$font-family-primary: Verdana, Geneva, Tahoma, sans-serif;
-
+$font-family:  Georgia, 'Times New Roman', Times, serif ;
+// p {
+//     font-family:;
+// }
 
 // colors
 $clr-neutral-100: hsl(0, 0%, 100%);
 
 $clr-primary-400: hsl(230, 81%, 55%);
 $clr-secondary-400: hsl(49, 97%, 59%);
-
-$ff-heading: $font-family-primary;
-$ff-body: $font-family-primary;
 
 $font-weight: 400;
 
@@ -30,12 +29,15 @@ $fs-107: 107.51;
 $max-width: 1492.4;
 $padding: 118;
 
-$s-100:0.25rem;
-$s-200:0.5rem;
-$s-300:0.75rem;
-$s-400:1rem;
-$s-500:1.5rem;
-$s-600:2rem;
-$s-700:3rem;
-$s-800:4rem;
-$s-900:5rem;
+// padding measurement
+$s-100:40.75;
+$s-200:69.66;
+$s-300:103.87;
+$s-400:126;
+$s-500:138.99;
+$s-600:145;
+$s-700:158.6;
+$s-800:161;
+
+
+

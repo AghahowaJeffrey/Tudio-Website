@@ -5,10 +5,13 @@
 @use '../abstracts' as a;
 
 // header styles //
+
+.header {
+    padding-top: a.div(66.6);
+}
 .header__flex {
     display: flex;
     justify-content: space-between;
-    padding: a.div(68.6) 0;
 }
 
 .header-logo {

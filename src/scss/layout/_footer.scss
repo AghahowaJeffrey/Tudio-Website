@@ -1,3 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+@use '../abstracts' as a;
+
+.section {
+    height: a.div(374);
+    padding: 0 a.div(77);
+}

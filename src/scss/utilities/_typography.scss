@@ -11,12 +11,10 @@
     color: a.$clr-primary-400;
 }
 
-.ff-heading {
-    font-family: a.$ff-heading;
+.font-family {
+    font-family: a.$font-family;
 }
-.ff-body {
-    font-family: a.$ff-body;
-}
+
 
 .fs-31 {
     font-size: a.div(a.$fs-31);

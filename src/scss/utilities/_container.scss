@@ -12,9 +12,9 @@
 }
 
 .container-columns {
-    display: grid;
+    display: flex;
     gap: 1rem;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
