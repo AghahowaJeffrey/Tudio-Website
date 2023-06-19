@@ -12,43 +12,51 @@
 
 // Footer styles //
 
-// .footer-section {
-//     width: a.div(608.6);
-// }
+.footer-section {
+    width: 50%;
+}
 
 .email-input {
     width: a.div(608.6);
     height: a.div(81.15);
     position: relative;
     margin-bottom: a.div(138.99);
+    margin-top: a.div(79);
 }
 
 .email-input img {
     width: a.div(89.26);
     position: absolute;
-    bottom: a.div(45);
+    bottom: 40%;
     left: a.div(500);
 }
 .email-input #email {
     background-color: transparent;
     border: 1px solid a.$clr-neutral-100;
     width: 100%;
-    padding-left: a.div(36.26);
+    padding: 8px 0 8px a.div(36.26);
+    font-size: a.div(a.$fs-35);
+    color: a.$clr-neutral-100;
+
+}
+
+.email-input #email:focus {
+    outline: none;
 }
 
 .email-input #email::placeholder {
     color: hsl(0, 0%, 100%, 0.6);
+    font-size: a.div(a.$fs-35);}
+
+.footer-section h3 {
+    margin-bottom: a.div(a.$s-300);
+    margin-top: a.div(220.99);
 }
 
-// .footer-section h1 {
-//     font-size: u.size(u.$text-size-160);
-//     margin-bottom: u.size(103.87);
-//     color: u.$color-text-100;
-// }
-// .footer-section-1 .footer-logo {
-//     width: u.size(720);
-//     height: u.size(168.71);
-// }
+.footer-logo {
+    width: a.div(720);
+    height: a.div(168.71);
+}
 
 // .footer-section-2 p,
 // .footer-section-2 a {
