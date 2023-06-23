@@ -7,11 +7,12 @@
 //main section style //
 .content__box {
     border: 1px solid a.$clr-primary-400;
-    width: a.div(800);
+    width: a.div(710);
     height: a.div(85.25);
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: a.div(20.88);
-    margin-bottom: a.div(40.75);
+    padding: a.div(31.69) a.div(23.66);
+    margin-bottom: a.div(65.64);
 }

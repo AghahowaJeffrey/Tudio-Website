@@ -4,12 +4,13 @@
 
 @use '../abstracts' as a;
 
-// background style //
+// // background style //
 body {
     background-color: a.$clr-primary-400;
 }
 .body-container {
-    background: linear-gradient(0deg, a.$clr-primary-400 53%, a.$clr-neutral-100 53% );
+    position: absolute;
+    background: linear-gradient(0deg, a.$clr-primary-400 50%, a.$clr-neutral-100 50% );
 }
 
 // color style 
@@ -20,3 +21,10 @@ body {
     background-color: a.$clr-secondary-400;
 }
 
+// .white-bg {
+//     background-color: a.$clr-neutral-100;
+// }
+
+// .blue-bg {
+//     background-color: a.$clr-primary-400;
+// }

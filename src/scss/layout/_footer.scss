@@ -4,23 +4,38 @@
 
 @use '../abstracts' as a;
 
+// Footer styles //
+
+// Section styles //
 .section {
     height: a.div(374);
     padding: 0 a.div(77);
+    align-items: center;
 }
 
-
-// Footer styles //
-
-.footer-section {
-    width: 50%;
+.section h2 {
+    width: a.div(600);
 }
 
+ .footer-section-1 {
+    width: 100%;
+ }
+
+ .footer-section-2 {
+    padding-top: a.div(169.34);
+    max-width: a.div(530.4);
+ }
+
+ .fix-width-1 {
+    max-width: a.div(608.6);
+ }
+
+// Email input styles //
 .email-input {
-    width: a.div(608.6);
+    width: 100%;
     height: a.div(81.15);
     position: relative;
-    margin-bottom: a.div(138.99);
+    // margin-bottom: a.div(138.99);
     margin-top: a.div(79);
 }
 
@@ -46,48 +61,63 @@
 
 .email-input #email::placeholder {
     color: hsl(0, 0%, 100%, 0.6);
-    font-size: a.div(a.$fs-35);}
-
-.footer-section h3 {
-    margin-bottom: a.div(a.$s-300);
-    margin-top: a.div(220.99);
+    font-size: a.div(a.$fs-35);
 }
 
+// H3 styles //
+.footer-section-1 h3 {
+    width: 100%;
+    margin-bottom: a.div(107.4);
+    margin-top: a.div(229.64);
+    line-height: 28px;
+}
+
+// Footer Logo styles //
 .footer-logo {
     width: a.div(720);
     height: a.div(168.71);
 }
 
-// .footer-section-2 p,
-// .footer-section-2 a {
-//     color: u.$color-text-100;
-// }
+.footer-section-2 p {
+    text-align: left;
+}
 
-// .footer-section-2 p {
-//     font-size: u.size(u.$text-size-130);
-//     margin-bottom: u.size(28.2);
-// }
+.footer-section-2 h3 {
+    border-bottom: 2px solid a.$clr-neutral-100;
+    padding-top: a.div(56.38);
+    padding-bottom: a.div(47.66);
+}
 
-// .footer-section-2 h1 {
-//     font-size: u.size(u.$text-size-200);
-//     padding: u.size(40.9) 0;
-//     color: u.$color-text-100;
-//     border-bottom: 2px solid hsla(0, 0%, 100%, 1);
-// }
+.contact-info {
+    margin-top: a.div(76.55);
+    display: flex;
+    justify-content: space-between;
+}
 
-// .contact-info {
-//     margin-top: u.size(69.6);
-//     display: flex;
-//     justify-content: space-between;
-// }
+.contacts li {
+    padding-bottom: a.div(44.35);
+}
 
-// .copyright {
-//     display: flex;
-//     justify-content: space-between;
-// }
+.socials li {
+    padding-bottom: a.div(44.35);
+}
 
-// .copyright p {
-//     margin-bottom: 0;
-//     padding-top: 40px;
-// }
+.socials li:last-child {
+    padding-bottom: 0;
+}
+
+.socials a {
+    color: a.$clr-neutral-100;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: a.div(150);
+}
+
+.copyright p {
+    margin-bottom: 0;
+   
+}
 
